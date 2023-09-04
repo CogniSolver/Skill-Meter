@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Meter</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="center">
+
+    <div class="container">
+        <div class="choose-level center">
+            <input type="radio" id="0" name="level" value="0" checked>
+            <label for="0">0</label>
+
+            <input type="radio" id="1" name="level" value="1">
+            <label for="1">1</label>
+
+            <input type="radio" id="2" name="level" value="2">
+            <label for="2">2</label>
+
+            <input type="radio" id="3" name="level" value="3">
+            <label for="3">3</label>
+        </div>
+
+        <div class="meter">
+            <div class="outer-circle center">
+                <div class="inner-circle">
+                    <div class="needle center"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="label center">
+            <span>Level 0</span>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
