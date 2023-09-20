@@ -25,7 +25,7 @@ You will need a code editor and a web browser installed on your machine to work 
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/yourusername/skill-meter.git
+   git clone https://github.com/cognisolver/skill-meter.git
    ```
 
 2. Navigate to the project directory:
